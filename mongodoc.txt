@@ -1,0 +1,67 @@
+//   db.collection('users').insertOne({
+//       id: id,
+//       name:'Lionel', 
+//       age:27
+
+//   }, (error, result)=>{
+//     if(error){
+//     return "Unable to Insert User"
+//     }
+//     console.log(result.ops)
+//   })
+//   db.collection('users').insertMany([
+//      { name:"Jen",
+//      age: 28,
+
+//   },{
+//       name: "Cristiano",
+//       age:33
+//   }
+//   ]
+//   , (error,result) =>{
+//       if(error)
+//       return console.log("Unable to upload Documents")
+//      console.log(result.ops)
+//   })
+    // db.collection('tasks').insertMany([
+    //     {  taskName: "Validate Email",
+    //         completed: false},
+    //      {  taskName:"Set Up Job Listing",
+    //          completed:false},
+    //          { taskName: "Update Profile",
+    //             completed: false
+    //          }
+
+              
+    // ], (error, result)=>{
+    //   if(error){
+    //       return console.log("Unable to connect to database")
+    //   }
+    //   console.log(result.ops)
+
+    // })
+ to count the number of users with a particular feature
+    //   db.collection('users').find({age:27}).count((error, count)=>{
+//     console.log(count)
+//    })
+
+const me = new User({
+//     name: "   Paul   ",
+//     email: "pogba@email.com",
+//     password: "mypass123"
+// })
+
+// me.save().then(() => {
+// console.log(me)
+// }).catch((error) =>{
+//    console.log('Error!', error)
+// })
+// const main = async () =>{
+//     // const task = await Task.findById('5decb233e1f9358b60c573a2')
+//     // await task.populate('owner').execPopulate()
+//     // console.log(task.owner)
+//     const user = await User.findById('5decb79e8d3f79903264618e')
+//     await user.populate('tasks').execPopulate()
+//     console.log(user.tasks)
+// }
+// main()
